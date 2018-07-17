@@ -26,7 +26,7 @@ public class VideoKit {
         logLevel = level;
     }
 
-    int process(String[] args) {
+    public int process(String[] args) {
         return run(logLevel.getValue(), args);
     }
 
